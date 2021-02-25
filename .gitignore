@@ -6,10 +6,12 @@
 # KiCad backup files
 *.bak
 *.bck
+*.sch-bak
 *.kicad_pcb-bak
 
 # KiCad generated files
 *.erc
 *.net
+*-cache
 *-cache.lib
 *-rescue.lib
