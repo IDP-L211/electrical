@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "Adafruit Motor Shield v2.3")(type KiCad)(uri "$(KIPRJMOD)/Adafruit Motor Shield v2.3.pretty")(options "")(descr ""))
+)
