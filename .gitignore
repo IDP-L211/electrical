@@ -8,6 +8,7 @@
 *.bck
 *.sch-bak
 *.kicad_pcb-bak
+_autosave*
 
 # KiCad generated files
 *.erc

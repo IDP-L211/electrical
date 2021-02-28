@@ -1,0 +1,2061 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Label 5700 5550 1    70   ~ 0
+PWM[0..15]
+Text Label 3700 5600 3    70   ~ 0
+A[0..4]
+Text Label 4725 6800 2    70   ~ 0
+A[0..4]
+Wire Wire Line
+	10100 6400 10200 6400
+Wire Wire Line
+	10200 6400 10200 6200
+Text Label 10100 6400 0    10   ~ 0
++12V
+Wire Wire Line
+	10100 7900 10200 7900
+Wire Wire Line
+	10200 7900 10200 8000
+Wire Wire Line
+	10200 8000 10100 8000
+Connection ~ 10200 8000
+Text Label 10100 7900 0    10   ~ 0
++12V
+Wire Wire Line
+	12000 6400 11900 6400
+Wire Wire Line
+	11900 6400 11900 6200
+Text Label 12000 6400 0    10   ~ 0
++12V
+Wire Wire Line
+	12000 7900 11900 7900
+Wire Wire Line
+	11900 7900 11900 8000
+Wire Wire Line
+	11900 8000 12000 8000
+Connection ~ 11900 8000
+Text Label 12000 7900 0    10   ~ 0
++12V
+Wire Wire Line
+	5600 2100 5300 2100
+Wire Wire Line
+	5300 2100 5300 2200
+Wire Wire Line
+	5600 2100 5900 2100
+Wire Wire Line
+	5900 2100 5900 2200
+Connection ~ 5600 2100
+Text Label 5600 2100 0    10   ~ 0
++12V
+Wire Wire Line
+	4700 2200 4700 2100
+Text Label 4700 2200 0    10   ~ 0
++12V
+Wire Wire Line
+	3200 3100 3700 3100
+Wire Wire Line
+	3200 2800 3200 3100
+Connection ~ 3200 3100
+Text Label 3200 3100 0    10   ~ 0
++12V
+Wire Wire Line
+	10100 7100 10100 7000
+Connection ~ 10100 7000
+Text Label 10100 7100 0    10   ~ 0
+VCC
+Wire Wire Line
+	12000 7000 12000 7100
+Connection ~ 12000 7000
+Text Label 12000 7000 0    10   ~ 0
+VCC
+Wire Wire Line
+	3600 8300 3300 8300
+Wire Wire Line
+	3300 8300 3000 8300
+Connection ~ 3300 8300
+Text Label 3600 8300 0    10   ~ 0
+VCC
+Wire Wire Line
+	4100 1100 4100 1000
+Wire Wire Line
+	4100 1000 3700 1000
+Wire Wire Line
+	3700 1000 3700 1100
+Wire Wire Line
+	3700 1000 3300 1000
+Wire Wire Line
+	3300 1000 3300 1100
+Wire Wire Line
+	4500 1000 4100 1000
+Wire Wire Line
+	4500 1000 4500 1100
+Wire Wire Line
+	2900 1100 2900 1000
+Wire Wire Line
+	2900 1000 3300 1000
+Connection ~ 3700 1000
+Connection ~ 4100 1000
+Connection ~ 3300 1000
+Text Label 4100 1100 0    10   ~ 0
+VCC
+Wire Wire Line
+	3500 4500 3500 4800
+Wire Wire Line
+	3500 4800 3900 4800
+Text Label 3500 4500 0    10   ~ 0
+VCC
+Wire Wire Line
+	3400 6100 3900 6100
+Text Label 3400 6100 0    10   ~ 0
+VCC
+Wire Wire Line
+	6100 8400 6100 8300
+Text Label 6100 8400 0    10   ~ 0
+VCC
+Wire Wire Line
+	5700 8300 5700 8400
+Text Label 5700 8300 0    10   ~ 0
+VCC
+Wire Wire Line
+	5400 1200 5400 1300
+Text Label 5400 1200 0    10   ~ 0
+VCC
+Wire Wire Line
+	10200 7300 10100 7300
+Text Label 10200 7300 0    10   ~ 0
+GND
+Wire Wire Line
+	8700 6700 8700 6800
+Connection ~ 8700 6800
+Text Label 8700 6700 0    10   ~ 0
+GND
+Wire Wire Line
+	8700 7600 8700 7700
+Connection ~ 8700 7600
+Text Label 8700 7600 0    10   ~ 0
+GND
+Wire Wire Line
+	13400 7600 13400 7700
+Connection ~ 13400 7600
+Text Label 13400 7600 0    10   ~ 0
+GND
+Wire Wire Line
+	13400 6700 13400 6800
+Connection ~ 13400 6800
+Text Label 13400 6700 0    10   ~ 0
+GND
+Wire Wire Line
+	4300 8500 4300 8600
+Wire Wire Line
+	4500 8300 4500 8600
+Wire Wire Line
+	4500 8600 4300 8600
+Wire Wire Line
+	4700 8100 4700 8600
+Wire Wire Line
+	4700 8600 4500 8600
+Wire Wire Line
+	4700 8600 4900 8600
+Wire Wire Line
+	4900 8300 4900 8600
+Wire Wire Line
+	4900 8600 5100 8600
+Wire Wire Line
+	5100 8600 5100 8500
+Connection ~ 4500 8600
+Connection ~ 4700 8600
+Connection ~ 4900 8600
+Text Label 4300 8500 0    10   ~ 0
+GND
+Wire Wire Line
+	12350 3550 12250 3550
+Wire Wire Line
+	12250 3550 12050 3550
+Connection ~ 12250 3550
+Text Label 12350 3550 3    10   ~ 0
+GND
+Wire Wire Line
+	3300 2300 3500 2300
+Text Label 3300 2300 0    10   ~ 0
+GND
+Wire Wire Line
+	3300 1400 3300 1700
+Wire Wire Line
+	3300 1700 3700 1700
+Wire Wire Line
+	3700 1700 3700 1400
+Wire Wire Line
+	3700 1700 4100 1700
+Wire Wire Line
+	4100 1700 4100 1400
+Wire Wire Line
+	4100 1700 4500 1700
+Wire Wire Line
+	4500 1700 4500 1400
+Wire Wire Line
+	3300 1700 2900 1700
+Wire Wire Line
+	2900 1700 2900 1400
+Connection ~ 3700 1700
+Connection ~ 4100 1700
+Connection ~ 3300 1700
+Text Label 3300 1400 0    10   ~ 0
+GND
+Wire Wire Line
+	5300 2500 5300 2800
+Wire Wire Line
+	5300 2800 5600 2800
+Wire Wire Line
+	5600 2800 5900 2800
+Wire Wire Line
+	5900 2800 5900 2500
+Connection ~ 5600 2800
+Text Label 5300 2500 0    10   ~ 0
+GND
+Wire Wire Line
+	12550 1750 12550 2100
+Wire Wire Line
+	12550 1750 12550 1550
+Wire Wire Line
+	12550 950  12550 1250
+Connection ~ 12550 1750
+Connection ~ 12550 1250
+Text Label 12550 1750 3    10   ~ 0
+GND
+Wire Wire Line
+	4700 2900 4700 3000
+Text Label 4700 2900 0    10   ~ 0
+GND
+Wire Wire Line
+	3900 5500 3900 5300
+Connection ~ 3900 5300
+Text Label 3900 5500 0    10   ~ 0
+GND
+Wire Wire Line
+	9550 4250 9650 4250
+Wire Wire Line
+	9150 4250 9550 4250
+Connection ~ 9550 4250
+Text Label 9550 4250 3    10   ~ 0
+GND
+Wire Wire Line
+	9050 4350 9550 4350
+Wire Wire Line
+	9550 4350 9650 4350
+Connection ~ 9550 4350
+Text Label 9050 4350 3    10   ~ 0
+GND
+Wire Wire Line
+	10650 5650 10650 5350
+Text Label 10650 5650 3    10   ~ 0
+GND
+Wire Wire Line
+	9550 2950 9450 2950
+Wire Wire Line
+	9450 2950 9350 2950
+Connection ~ 9450 2950
+Text Label 9550 2950 3    10   ~ 0
+GND
+Wire Wire Line
+	2800 2700 3000 2700
+Text Label 2800 2700 0    10   ~ 0
+GND
+Wire Wire Line
+	8700 6400 8700 6500
+Wire Wire Line
+	8200 7000 8300 7000
+Wire Wire Line
+	8300 7000 8300 6500
+Wire Wire Line
+	8300 6500 8700 6500
+Connection ~ 8700 6500
+Wire Wire Line
+	8700 7000 8700 7100
+Wire Wire Line
+	8200 7100 8700 7100
+Connection ~ 8700 7100
+Wire Wire Line
+	8700 7300 8700 7400
+Wire Wire Line
+	8200 7300 8700 7300
+Connection ~ 8700 7300
+Wire Wire Line
+	8700 7900 8700 8000
+Wire Wire Line
+	8200 7400 8300 7400
+Wire Wire Line
+	8300 7400 8300 7900
+Wire Wire Line
+	8300 7900 8700 7900
+Connection ~ 8700 7900
+Wire Wire Line
+	13400 6500 13400 6400
+Wire Wire Line
+	13400 6500 13800 6500
+Wire Wire Line
+	13800 6500 13800 7000
+Wire Wire Line
+	13800 7000 13900 7000
+Connection ~ 13400 6500
+Wire Wire Line
+	13400 7000 13400 7100
+Wire Wire Line
+	13400 7100 13900 7100
+Connection ~ 13400 7100
+Wire Wire Line
+	13400 7300 13400 7400
+Wire Wire Line
+	13400 7300 13900 7300
+Connection ~ 13400 7300
+Wire Wire Line
+	13400 8000 13400 7900
+Wire Wire Line
+	13400 7900 13800 7900
+Wire Wire Line
+	13800 7900 13800 7400
+Wire Wire Line
+	13800 7400 13900 7400
+Connection ~ 13400 7900
+Wire Wire Line
+	12250 3850 12050 3850
+Wire Wire Line
+	12250 4050 12850 4050
+Wire Wire Line
+	12850 4050 12850 2550
+Wire Wire Line
+	12850 2550 12350 2550
+Wire Wire Line
+	12350 2550 12350 2150
+Wire Wire Line
+	12250 4050 12050 4050
+Connection ~ 12250 4050
+Text Label 12500 4050 0    70   ~ 0
+D9
+Wire Wire Line
+	12350 1750 12150 1750
+Wire Wire Line
+	12150 1750 12150 2850
+Wire Wire Line
+	12150 2850 12750 2850
+Wire Wire Line
+	12750 2850 12750 3950
+Wire Wire Line
+	12750 3950 12250 3950
+Wire Wire Line
+	12250 3950 12050 3950
+Connection ~ 12250 3950
+Text Label 12500 3950 0    70   ~ 0
+D10
+Wire Wire Line
+	9650 5150 9350 5150
+Wire Wire Line
+	12050 3250 10450 3250
+Wire Wire Line
+	10450 3250 10450 5150
+Wire Wire Line
+	10450 5150 9650 5150
+Wire Wire Line
+	12250 3250 12050 3250
+Text Label 8950 5150 0    70   ~ 0
+AD5/SCL
+Connection ~ 9650 5150
+Connection ~ 12050 3250
+Connection ~ 9350 5150
+Wire Wire Line
+	3900 5100 3000 5100
+Wire Wire Line
+	3000 5100 2900 5100
+Text Label 2900 5100 0    70   ~ 0
+AD5/SCL
+Connection ~ 3000 5100
+Wire Wire Line
+	9650 5050 9350 5050
+Wire Wire Line
+	9650 5050 10550 5050
+Wire Wire Line
+	10550 5050 10550 3350
+Wire Wire Line
+	10550 3350 12050 3350
+Wire Wire Line
+	12250 3350 12050 3350
+Text Label 8950 5050 0    70   ~ 0
+AD4/SDA
+Connection ~ 9650 5050
+Connection ~ 12050 3350
+Connection ~ 9350 5050
+Wire Wire Line
+	3900 5000 3300 5000
+Wire Wire Line
+	3300 5000 3100 5000
+Text Label 3100 5000 0    70   ~ 0
+AD4/SDA
+Connection ~ 3300 5000
+Wire Wire Line
+	9550 3950 9350 3950
+Wire Wire Line
+	9550 3950 9650 3950
+Wire Wire Line
+	9550 3350 9450 3350
+Wire Wire Line
+	9450 3350 9350 3350
+Wire Wire Line
+	9350 3350 9350 3950
+Text Label 9050 3950 0    70   ~ 0
+/RST
+Connection ~ 9550 3950
+Connection ~ 9450 3350
+Connection ~ 9350 3950
+Wire Wire Line
+	10750 4950 10750 4550
+Text Label 10750 4950 3    10   ~ 0
+/RST
+Wire Wire Line
+	9550 4450 9650 4450
+Text Label 9050 4450 0    70   ~ 0
+VIN
+Connection ~ 9550 4450
+Wire Wire Line
+	3800 3100 4100 3100
+Text Label 3900 3100 0    70   ~ 0
+VIN
+Connection ~ 9650 4650
+Connection ~ 9650 4750
+Connection ~ 9650 4850
+Connection ~ 9650 4950
+Wire Wire Line
+	12250 4150 12050 4150
+Wire Wire Line
+	12250 3750 12050 3750
+Wire Wire Line
+	12250 3650 12050 3650
+Wire Wire Line
+	12250 3450 12050 3450
+Wire Wire Line
+	5500 4800 5600 4800
+Text Label 5600 4800 0    10   ~ 0
+PWM0
+Wire Wire Line
+	5800 7000 6200 7000
+Text Label 6000 7000 0    70   ~ 0
+PWM0
+Wire Wire Line
+	5500 4900 5600 4900
+Text Label 5600 4900 0    10   ~ 0
+PWM1
+Wire Wire Line
+	5800 6900 6200 6900
+Text Label 6000 6900 0    70   ~ 0
+PWM1
+Wire Wire Line
+	5500 5000 5600 5000
+Text Label 5600 5000 0    10   ~ 0
+PWM2
+Wire Wire Line
+	12000 6600 11400 6600
+Text Label 11500 6600 0    70   ~ 0
+PWM2
+Wire Wire Line
+	5500 5100 5600 5100
+Text Label 5600 5100 0    10   ~ 0
+PWM3
+Wire Wire Line
+	12000 6700 11400 6700
+Text Label 11400 6700 0    70   ~ 0
+PWM3
+Wire Wire Line
+	5500 5200 5600 5200
+Text Label 5600 5200 0    10   ~ 0
+PWM4
+Wire Wire Line
+	12000 6800 11400 6800
+Text Label 11400 6800 0    70   ~ 0
+PWM4
+Wire Wire Line
+	5500 5300 5600 5300
+Text Label 5600 5300 0    10   ~ 0
+PWM5
+Wire Wire Line
+	12000 7500 11400 7500
+Text Label 11400 7500 0    70   ~ 0
+PWM5
+Wire Wire Line
+	5500 5400 5600 5400
+Text Label 5600 5400 0    10   ~ 0
+PWM6
+Wire Wire Line
+	12000 7600 11400 7600
+Text Label 11400 7600 0    70   ~ 0
+PWM6
+Wire Wire Line
+	5500 5500 5600 5500
+Text Label 5600 5500 0    10   ~ 0
+PWM7
+Wire Wire Line
+	12000 7700 11400 7700
+Text Label 11400 7700 0    70   ~ 0
+PWM7
+Wire Wire Line
+	5500 5600 5600 5600
+Text Label 5600 5600 0    10   ~ 0
+PWM8
+Wire Wire Line
+	10100 6600 10500 6600
+Text Label 10200 6600 0    70   ~ 0
+PWM8
+Wire Wire Line
+	5500 5700 5600 5700
+Text Label 5600 5700 0    10   ~ 0
+PWM9
+Wire Wire Line
+	10100 6700 10500 6700
+Text Label 10200 6700 0    70   ~ 0
+PWM9
+Wire Wire Line
+	5500 5800 5600 5800
+Text Label 5600 5800 0    10   ~ 0
+PWM10
+Wire Wire Line
+	10100 6800 10500 6800
+Text Label 10200 6800 0    70   ~ 0
+PWM10
+Wire Wire Line
+	5500 5900 5600 5900
+Text Label 5600 5900 0    10   ~ 0
+PWM11
+Wire Wire Line
+	10100 7500 10500 7500
+Text Label 10200 7500 0    70   ~ 0
+PWM11
+Wire Wire Line
+	5500 6000 5600 6000
+Text Label 5600 6000 0    10   ~ 0
+PWM12
+Wire Wire Line
+	10100 7600 10500 7600
+Text Label 10200 7600 0    70   ~ 0
+PWM12
+Wire Wire Line
+	5500 6100 5600 6100
+Text Label 5600 6100 0    10   ~ 0
+PWM13
+Wire Wire Line
+	10100 7700 10500 7700
+Text Label 10200 7700 0    70   ~ 0
+PWM13
+Wire Wire Line
+	5500 6200 5600 6200
+Text Label 5600 6200 0    10   ~ 0
+PWM14
+Wire Wire Line
+	5800 6800 6200 6800
+Text Label 6000 6800 0    70   ~ 0
+PWM14
+Wire Wire Line
+	5500 6300 5600 6300
+Text Label 5600 6300 0    10   ~ 0
+PWM15
+Wire Wire Line
+	5800 6700 6200 6700
+Text Label 6000 6700 0    70   ~ 0
+PWM15
+Wire Wire Line
+	3700 5600 3900 5600
+Text Label 3700 5600 0    70   ~ 0
+A0
+Wire Wire Line
+	4700 7500 4700 6900
+Wire Wire Line
+	3000 7900 3000 7500
+Wire Wire Line
+	4700 7700 4700 7500
+Wire Wire Line
+	4700 7500 3000 7500
+Text Label 4700 6900 3    70   ~ 0
+A0
+Connection ~ 3000 7500
+Connection ~ 4700 7500
+Wire Wire Line
+	3700 5700 3900 5700
+Text Label 3700 5700 0    70   ~ 0
+A1
+Wire Wire Line
+	4500 7900 4500 7700
+Wire Wire Line
+	4500 7700 4500 6900
+Wire Wire Line
+	3300 7900 3300 7700
+Wire Wire Line
+	4500 7700 3300 7700
+Connection ~ 4500 7700
+Text Label 4500 6900 3    70   ~ 0
+A1
+Connection ~ 3300 7700
+Wire Wire Line
+	3700 5800 3900 5800
+Text Label 3700 5800 0    70   ~ 0
+A2
+Wire Wire Line
+	4300 8100 4300 7900
+Wire Wire Line
+	4300 7900 4300 6900
+Wire Wire Line
+	3600 7900 4300 7900
+Connection ~ 4300 7900
+Text Label 4300 6900 3    70   ~ 0
+A2
+Connection ~ 3600 7900
+Wire Wire Line
+	3700 5900 3900 5900
+Text Label 3700 5900 0    70   ~ 0
+A3
+Wire Wire Line
+	4900 7900 4900 7700
+Wire Wire Line
+	4900 7700 6100 7700
+Wire Wire Line
+	4900 7700 4900 6900
+Wire Wire Line
+	6100 7900 6100 7700
+Text Label 4900 6900 1    70   ~ 0
+A3
+Connection ~ 4900 7700
+Connection ~ 6100 7700
+Wire Wire Line
+	3700 6000 3900 6000
+Text Label 3700 6000 0    70   ~ 0
+A4
+Wire Wire Line
+	5100 8100 5100 7900
+Wire Wire Line
+	5100 7900 5700 7900
+Wire Wire Line
+	5100 7900 5100 6900
+Text Label 5100 6900 1    70   ~ 0
+A4
+Connection ~ 5700 7900
+Connection ~ 5100 7900
+Wire Wire Line
+	9550 3850 9650 3850
+Wire Wire Line
+	9550 3750 9650 3750
+Wire Wire Line
+	5300 1400 5200 1400
+Wire Wire Line
+	5200 1400 5200 1300
+Text Label 5300 1400 0    10   ~ 0
++5V
+Wire Wire Line
+	12450 2150 12450 1900
+Wire Wire Line
+	12450 950  12450 1250
+Wire Wire Line
+	12450 1250 12450 1350
+Connection ~ 12450 1750
+Connection ~ 12450 1250
+Text Label 12450 2150 3    10   ~ 0
++5V
+Wire Wire Line
+	8950 4150 9550 4150
+Wire Wire Line
+	9550 4150 9650 4150
+Connection ~ 9550 4150
+Text Label 8950 4150 3    10   ~ 0
++5V
+Wire Wire Line
+	11050 5650 11050 5350
+Text Label 11050 5650 3    10   ~ 0
++5V
+Wire Wire Line
+	8850 4050 9550 4050
+Wire Wire Line
+	9550 4050 9650 4050
+Connection ~ 9550 4050
+Text Label 8850 4050 3    10   ~ 0
++3V3
+Wire Wire Line
+	5500 1400 5600 1400
+Wire Wire Line
+	5600 1400 5600 1300
+Text Label 5500 1400 0    10   ~ 0
++3V3
+Wire Wire Line
+	3200 2400 3200 2300
+Wire Wire Line
+	10850 5350 10850 5850
+Wire Wire Line
+	11150 4950 11150 4550
+Wire Wire Line
+	10950 4950 10950 4550
+Entry Wire Line
+	5600 4800 5700 4900
+Entry Wire Line
+	5600 4900 5700 5000
+Entry Wire Line
+	5600 5000 5700 5100
+Entry Wire Line
+	5600 5100 5700 5200
+Entry Wire Line
+	5600 5200 5700 5300
+Entry Wire Line
+	5600 5300 5700 5400
+Entry Wire Line
+	5600 5400 5700 5500
+Entry Wire Line
+	5600 5500 5700 5600
+Entry Wire Line
+	5600 5600 5700 5700
+Entry Wire Line
+	5600 5700 5700 5800
+Entry Wire Line
+	5600 5800 5700 5900
+Entry Wire Line
+	5600 5900 5700 6000
+Entry Wire Line
+	5600 6000 5700 6100
+Entry Wire Line
+	5600 6100 5700 6200
+Entry Wire Line
+	5600 6200 5700 6300
+Entry Wire Line
+	5600 6300 5700 6200
+Entry Wire Line
+	3600 5700 3700 5600
+Entry Wire Line
+	3600 5600 3700 5700
+Entry Wire Line
+	3600 5700 3700 5800
+Entry Wire Line
+	3600 5800 3700 5900
+Entry Wire Line
+	3600 5900 3700 6000
+Entry Wire Line
+	4600 6800 4700 6900
+Entry Wire Line
+	4400 6800 4500 6900
+Entry Wire Line
+	4300 6900 4400 6800
+Entry Wire Line
+	4800 6800 4900 6900
+Entry Wire Line
+	5000 6800 5100 6900
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:TB6612FNG IC1
+U 1 1 06F92037
+P 9400 7200
+F 0 "IC1" H 9300 6200 59  0000 L BNN
+F 1 "TB6612FNG" H 9400 7200 50  0001 C CNN
+F 2 "Adafruit Motor Shield v2.3:SSOP24" H 9400 7200 50  0001 C CNN
+F 3 "" H 9400 7200 50  0001 C CNN
+	1    9400 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:TB6612FNG IC3
+U 1 1 5ED25CA7
+P 12700 7200
+F 0 "IC3" H 12600 6200 59  0000 L BNN
+F 1 "TB6612FNG" H 12700 7200 50  0001 C CNN
+F 2 "Adafruit Motor Shield v2.3:SSOP24" H 12700 7200 50  0001 C CNN
+F 3 "" H 12700 7200 50  0001 C CNN
+	1    12700 7200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:1X5 J1
+U 1 1 2CE6A523
+P 7900 7200
+F 0 "J1" H 7900 7200 50  0001 C CNN
+F 1 "1X5" H 7900 7200 50  0001 C CNN
+F 2 "Adafruit Motor Shield v2.3:1X05-3.5MM" H 7900 7200 50  0001 C CNN
+F 3 "" H 7900 7200 50  0001 C CNN
+	1    7900 7200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:1X5 J2
+U 1 1 F2D55355
+P 14200 7200
+F 0 "J2" H 14200 7200 50  0001 C CNN
+F 1 "1X5" H 14200 7200 50  0001 C CNN
+F 2 "Adafruit Motor Shield v2.3:1X05-3.5MM" H 14200 7200 50  0001 C CNN
+F 3 "" H 14200 7200 50  0001 C CNN
+	1    14200 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:+12V #P+01
+U 1 1 BCDF72C5
+P 10200 6100
+F 0 "#P+01" H 10200 6100 50  0001 C CNN
+F 1 "+12V" V 10100 5900 59  0000 L BNN
+F 2 "" H 10200 6100 50  0001 C CNN
+F 3 "" H 10200 6100 50  0001 C CNN
+	1    10200 6100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:+12V #P+02
+U 1 1 339DE9D3
+P 10200 8100
+F 0 "#P+02" H 10200 8100 50  0001 C CNN
+F 1 "+12V" V 10100 7900 59  0000 L BNN
+F 2 "" H 10200 8100 50  0001 C CNN
+F 3 "" H 10200 8100 50  0001 C CNN
+	1    10200 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:+12V #P+03
+U 1 1 00F05DF6
+P 11900 6100
+F 0 "#P+03" H 11900 6100 50  0001 C CNN
+F 1 "+12V" V 11800 5900 59  0000 L BNN
+F 2 "" H 11900 6100 50  0001 C CNN
+F 3 "" H 11900 6100 50  0001 C CNN
+	1    11900 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:+12V #P+04
+U 1 1 A7FDB2D8
+P 11900 8100
+F 0 "#P+04" H 11900 8100 50  0001 C CNN
+F 1 "+12V" V 11800 7900 59  0000 L BNN
+F 2 "" H 11900 8100 50  0001 C CNN
+F 3 "" H 11900 8100 50  0001 C CNN
+	1    11900 8100
+	1    0    0    1   
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:VCC #P+05
+U 1 1 33ACA7EC
+P 10200 7000
+F 0 "#P+05" H 10200 7000 50  0001 C CNN
+F 1 "VCC" V 10100 6900 59  0000 L BNN
+F 2 "" H 10200 7000 50  0001 C CNN
+F 3 "" H 10200 7000 50  0001 C CNN
+	1    10200 7000
+	0    1    1    0   
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:VCC #P+06
+U 1 1 B0F39303
+P 11900 7000
+F 0 "#P+06" H 11900 7000 50  0001 C CNN
+F 1 "VCC" V 11800 6900 59  0000 L BNN
+F 2 "" H 11900 7000 50  0001 C CNN
+F 3 "" H 11900 7000 50  0001 C CNN
+	1    11900 7000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:GND #GND01
+U 1 1 DB8695AC
+P 10300 7300
+F 0 "#GND01" H 10300 7300 50  0001 C CNN
+F 1 "GND" H 10200 7200 59  0000 L BNN
+F 2 "" H 10300 7300 50  0001 C CNN
+F 3 "" H 10300 7300 50  0001 C CNN
+	1    10300 7300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:GND #GND03
+U 1 1 7679BDCC
+P 11900 7300
+F 0 "#GND03" H 11900 7300 50  0001 C CNN
+F 1 "GND" H 11800 7200 59  0000 L BNN
+F 2 "" H 11900 7300 50  0001 C CNN
+F 3 "" H 11900 7300 50  0001 C CNN
+	1    11900 7300
+	0    1    1    0   
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:GND #GND04
+U 1 1 D896219B
+P 8600 6800
+F 0 "#GND04" H 8600 6800 50  0001 C CNN
+F 1 "GND" H 8500 6700 59  0000 L BNN
+F 2 "" H 8600 6800 50  0001 C CNN
+F 3 "" H 8600 6800 50  0001 C CNN
+	1    8600 6800
+	0    1    1    0   
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:GND #GND05
+U 1 1 EF27308A
+P 8600 7600
+F 0 "#GND05" H 8600 7600 50  0001 C CNN
+F 1 "GND" H 8500 7500 59  0000 L BNN
+F 2 "" H 8600 7600 50  0001 C CNN
+F 3 "" H 8600 7600 50  0001 C CNN
+	1    8600 7600
+	0    1    1    0   
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:GND #GND06
+U 1 1 A07C0193
+P 13500 7600
+F 0 "#GND06" H 13500 7600 50  0001 C CNN
+F 1 "GND" H 13400 7500 59  0000 L BNN
+F 2 "" H 13500 7600 50  0001 C CNN
+F 3 "" H 13500 7600 50  0001 C CNN
+	1    13500 7600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:GND #GND07
+U 1 1 9CDE76EF
+P 13500 6800
+F 0 "#GND07" H 13500 6800 50  0001 C CNN
+F 1 "GND" H 13400 6700 59  0000 L BNN
+F 2 "" H 13500 6800 50  0001 C CNN
+F 3 "" H 13500 6800 50  0001 C CNN
+	1    13500 6800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:GND #GND08
+U 1 1 DF24F9E8
+P 13800 7200
+F 0 "#GND08" H 13800 7200 50  0001 C CNN
+F 1 "GND" H 13700 7100 59  0000 L BNN
+F 2 "" H 13800 7200 50  0001 C CNN
+F 3 "" H 13800 7200 50  0001 C CNN
+	1    13800 7200
+	0    1    1    0   
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:GND #GND09
+U 1 1 928DF91D
+P 8300 7200
+F 0 "#GND09" H 8300 7200 50  0001 C CNN
+F 1 "GND" H 8200 7100 59  0000 L BNN
+F 2 "" H 8300 7200 50  0001 C CNN
+F 3 "" H 8300 7200 50  0001 C CNN
+	1    8300 7200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:RESISTOR0805_NOOUTLINE R1
+U 1 1 B9BAFB95
+P 4700 7900
+F 0 "R1" H 4600 7980 50  0000 L BNN
+F 1 "10k" H 4600 7775 50  0000 L BNN
+F 2 "Adafruit Motor Shield v2.3:0805-NO" H 4700 7900 50  0001 C CNN
+F 3 "" H 4700 7900 50  0001 C CNN
+	1    4700 7900
+	0    1    -1   0   
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:RESISTOR0805_NOOUTLINE R2
+U 1 1 81BCC900
+P 4500 8100
+F 0 "R2" H 4400 8180 50  0000 L BNN
+F 1 "10k" H 4400 7975 50  0000 L BNN
+F 2 "Adafruit Motor Shield v2.3:0805-NO" H 4500 8100 50  0001 C CNN
+F 3 "" H 4500 8100 50  0001 C CNN
+	1    4500 8100
+	0    1    -1   0   
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:RESISTOR0805_NOOUTLINE R3
+U 1 1 26020ECB
+P 4300 8300
+F 0 "R3" H 4200 8380 50  0000 L BNN
+F 1 "10k" H 4200 8175 50  0000 L BNN
+F 2 "Adafruit Motor Shield v2.3:0805-NO" H 4300 8300 50  0001 C CNN
+F 3 "" H 4300 8300 50  0001 C CNN
+	1    4300 8300
+	0    1    -1   0   
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:VCC #P+08
+U 1 1 B54CCCBB
+P 3300 8400
+F 0 "#P+08" H 3300 8400 50  0001 C CNN
+F 1 "VCC" V 3200 8300 59  0000 L BNN
+F 2 "" H 3300 8400 50  0001 C CNN
+F 3 "" H 3300 8400 50  0001 C CNN
+	1    3300 8400
+	1    0    0    1   
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:GND #GND011
+U 1 1 19DA8D48
+P 8950 4350
+F 0 "#GND011" H 8950 4350 50  0001 C CNN
+F 1 "GND" H 8850 4250 59  0000 L BNN
+F 2 "" H 8950 4350 50  0001 C CNN
+F 3 "" H 8950 4350 50  0001 C CNN
+	1    8950 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:GND #GND012
+U 1 1 A5F18D96
+P 12450 3550
+F 0 "#GND012" H 12450 3550 50  0001 C CNN
+F 1 "GND" H 12350 3450 59  0000 L BNN
+F 2 "" H 12450 3550 50  0001 C CNN
+F 3 "" H 12450 3550 50  0001 C CNN
+	1    12450 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:JP1E PWR1
+U 1 1 C0660688
+P 3700 3000
+F 0 "PWR1" V 3650 3000 59  0000 L BNN
+F 1 "JP1E" V 3925 3000 59  0000 L BNN
+F 2 "Adafruit Motor Shield v2.3:JP1" H 3700 3000 50  0001 C CNN
+F 3 "" H 3700 3000 50  0001 C CNN
+	1    3700 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:1X2-3.5MM MPOWER1
+U 1 1 7B1DD56E
+P 3200 2100
+F 0 "MPOWER1" H 3200 2100 50  0001 C CNN
+F 1 "1X2-3.5MM" H 3200 2100 50  0001 C CNN
+F 2 "Adafruit Motor Shield v2.3:1X2-3.5MM" H 3200 2100 50  0001 C CNN
+F 3 "" H 3200 2100 50  0001 C CNN
+	1    3200 2100
+	0    1    -1   0   
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:+12V #P+010
+U 1 1 99CC31BE
+P 3200 3200
+F 0 "#P+010" H 3200 3200 50  0001 C CNN
+F 1 "+12V" V 3100 3000 59  0000 L BNN
+F 2 "" H 3200 3200 50  0001 C CNN
+F 3 "" H 3200 3200 50  0001 C CNN
+	1    3200 3200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:GND #GND013
+U 1 1 9E3D6951
+P 3500 2400
+F 0 "#GND013" H 3500 2400 50  0001 C CNN
+F 1 "GND" H 3400 2300 59  0000 L BNN
+F 2 "" H 3500 2400 50  0001 C CNN
+F 3 "" H 3500 2400 50  0001 C CNN
+	1    3500 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:SOLDERJUMPERREFLOW_NOPASTE A0
+U 1 1 E9FB73C9
+P 3000 8100
+F 0 "A0" H 2900 8200 59  0000 L BNN
+F 1 "SOLDERJUMPERREFLOW_NOPASTE" H 2900 7950 59  0000 L BNN
+F 2 "Adafruit Motor Shield v2.3:SOLDERJUMPER_REFLOW_NOPASTE" H 3000 8100 50  0001 C CNN
+F 3 "" H 3000 8100 50  0001 C CNN
+	1    3000 8100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:SOLDERJUMPERREFLOW_NOPASTE A1
+U 1 1 E1B0505C
+P 3300 8100
+F 0 "A1" H 3200 8200 59  0000 L BNN
+F 1 "SOLDERJUMPERREFLOW_NOPASTE" H 3200 7950 59  0000 L BNN
+F 2 "Adafruit Motor Shield v2.3:SOLDERJUMPER_REFLOW_NOPASTE" H 3300 8100 50  0001 C CNN
+F 3 "" H 3300 8100 50  0001 C CNN
+	1    3300 8100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:SOLDERJUMPERREFLOW_NOPASTE A2
+U 1 1 9074705F
+P 3600 8100
+F 0 "A2" H 3500 8200 59  0000 L BNN
+F 1 "SOLDERJUMPERREFLOW_NOPASTE" H 3500 7950 59  0000 L BNN
+F 2 "Adafruit Motor Shield v2.3:SOLDERJUMPER_REFLOW_NOPASTE" H 3600 8100 50  0001 C CNN
+F 3 "" H 3600 8100 50  0001 C CNN
+	1    3600 8100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:CAP_CERAMIC0805-NOOUTLINE C1
+U 1 1 F1C90C04
+P 3300 1300
+F 0 "C1" V 3230 1321 50  0000 L BNN
+F 1 "0.1uF" V 3418 1321 50  0000 L BNN
+F 2 "Adafruit Motor Shield v2.3:0805-NO" H 3300 1300 50  0001 C CNN
+F 3 "" H 3300 1300 50  0001 C CNN
+	1    3300 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:CAP_CERAMIC0805-NOOUTLINE C2
+U 1 1 B94C3227
+P 3700 1300
+F 0 "C2" V 3630 1321 50  0000 L BNN
+F 1 "0.1uF" V 3818 1321 50  0000 L BNN
+F 2 "Adafruit Motor Shield v2.3:0805-NO" H 3700 1300 50  0001 C CNN
+F 3 "" H 3700 1300 50  0001 C CNN
+	1    3700 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:CAP_CERAMIC0805-NOOUTLINE C3
+U 1 1 DAA3AADF
+P 4100 1300
+F 0 "C3" V 4030 1321 50  0000 L BNN
+F 1 "0.1uF" V 4218 1321 50  0000 L BNN
+F 2 "Adafruit Motor Shield v2.3:0805-NO" H 4100 1300 50  0001 C CNN
+F 3 "" H 4100 1300 50  0001 C CNN
+	1    4100 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:GND #GND014
+U 1 1 109F320A
+P 3700 1800
+F 0 "#GND014" H 3700 1800 50  0001 C CNN
+F 1 "GND" H 3600 1700 59  0000 L BNN
+F 2 "" H 3700 1800 50  0001 C CNN
+F 3 "" H 3700 1800 50  0001 C CNN
+	1    3700 1800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:VCC #P+011
+U 1 1 FBD5C941
+P 3700 900
+F 0 "#P+011" H 3700 900 50  0001 C CNN
+F 1 "VCC" V 3600 800 59  0000 L BNN
+F 2 "" H 3700 900 50  0001 C CNN
+F 3 "" H 3700 900 50  0001 C CNN
+	1    3700 900 
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:CAP_ELECTROLYTICPANASONIC_C C4
+U 1 1 35A2968B
+P 5300 2400
+F 0 "C4" V 5230 2401 50  0000 L BNN
+F 1 "47uF/16v" V 5418 2401 50  0000 L BNN
+F 2 "Adafruit Motor Shield v2.3:PANASONIC_C" H 5300 2400 50  0001 C CNN
+F 3 "" H 5300 2400 50  0001 C CNN
+	1    5300 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:CAP_ELECTROLYTICPANASONIC_C C5
+U 1 1 2C8678F8
+P 5900 2400
+F 0 "C5" V 5830 2401 50  0000 L BNN
+F 1 "47uF+/16v" V 6018 2401 50  0000 L BNN
+F 2 "Adafruit Motor Shield v2.3:PANASONIC_C" H 5900 2400 50  0001 C CNN
+F 3 "" H 5900 2400 50  0001 C CNN
+	1    5900 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:+12V #P+012
+U 1 1 E517971B
+P 5600 2000
+F 0 "#P+012" H 5600 2000 50  0001 C CNN
+F 1 "+12V" V 5500 1800 59  0000 L BNN
+F 2 "" H 5600 2000 50  0001 C CNN
+F 3 "" H 5600 2000 50  0001 C CNN
+	1    5600 2000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:GND #GND015
+U 1 1 257B06B4
+P 5600 2900
+F 0 "#GND015" H 5600 2900 50  0001 C CNN
+F 1 "GND" H 5500 2800 59  0000 L BNN
+F 2 "" H 5600 2900 50  0001 C CNN
+F 3 "" H 5600 2900 50  0001 C CNN
+	1    5600 2900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:PINHD-1X3 SERVO1
+U 1 1 BB07ED54
+P 12450 1850
+F 0 "SERVO1" H 12200 2075 59  0000 L BNN
+F 1 "PINHD-1X3" H 12200 1550 59  0000 L BNN
+F 2 "Adafruit Motor Shield v2.3:1X03" H 12450 1850 50  0001 C CNN
+F 3 "" H 12450 1850 50  0001 C CNN
+	1    12450 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:PINHD-1X3 SERVO2
+U 1 1 4C556899
+P 12450 2250
+F 0 "SERVO2" H 12200 2475 59  0000 L BNN
+F 1 "PINHD-1X3" H 12200 1950 59  0000 L BNN
+F 2 "Adafruit Motor Shield v2.3:1X03" H 12450 2250 50  0001 C CNN
+F 3 "" H 12450 2250 50  0001 C CNN
+	1    12450 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:GND #GND016
+U 1 1 99D4D269
+P 12650 1250
+F 0 "#GND016" H 12650 1250 50  0001 C CNN
+F 1 "GND" H 12550 1150 59  0000 L BNN
+F 2 "" H 12650 1250 50  0001 C CNN
+F 3 "" H 12650 1250 50  0001 C CNN
+	1    12650 1250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:1X2-3.5MM SERPWR1
+U 1 1 7A68D7D6
+P 12550 750
+F 0 "SERPWR1" H 12550 750 50  0001 C CNN
+F 1 "1X2-3.5MM" H 12550 750 50  0001 C CNN
+F 2 "Adafruit Motor Shield v2.3:1X2-3.5MM" H 12550 750 50  0001 C CNN
+F 3 "" H 12550 750 50  0001 C CNN
+	1    12550 750 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:CPOL-USC C9
+U 1 1 59AE4678
+P 11450 1250
+F 0 "C9" H 11490 1275 59  0000 L BNN
+F 1 "10\\0uF 6.3V" H 11490 1085 59  0000 L BNN
+F 2 "Adafruit Motor Shield v2.3:PANASONIC_C" H 11450 1250 50  0001 C CNN
+F 3 "" H 11450 1250 50  0001 C CNN
+	1    11450 1250
+	0    1    1    0   
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:GND #GND017
+U 1 1 0A5A0AC8
+P 11150 1250
+F 0 "#GND017" H 11150 1250 50  0001 C CNN
+F 1 "GND" H 11050 1150 59  0000 L BNN
+F 2 "" H 11150 1250 50  0001 C CNN
+F 3 "" H 11150 1250 50  0001 C CNN
+	1    11150 1250
+	0    1    1    0   
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:LED0805_NOOUTLINE LED1
+U 1 1 1E2047ED
+P 4700 2400
+F 0 "LED1" H 4500 2525 42  0000 L BNN
+F 1 "Green" H 4500 2290 42  0000 L BNN
+F 2 "Adafruit Motor Shield v2.3:CHIPLED_0805_NOOUTLINE" H 4700 2400 50  0001 C CNN
+F 3 "" H 4700 2400 50  0001 C CNN
+	1    4700 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:+12V #P+015
+U 1 1 E802E752
+P 4700 2000
+F 0 "#P+015" H 4700 2000 50  0001 C CNN
+F 1 "+12V" V 4600 1800 59  0000 L BNN
+F 2 "" H 4700 2000 50  0001 C CNN
+F 3 "" H 4700 2000 50  0001 C CNN
+	1    4700 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:GND #GND018
+U 1 1 E0081D19
+P 4700 3100
+F 0 "#GND018" H 4700 3100 50  0001 C CNN
+F 1 "GND" H 4600 3000 59  0000 L BNN
+F 2 "" H 4700 3100 50  0001 C CNN
+F 3 "" H 4700 3100 50  0001 C CNN
+	1    4700 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:RESISTOR0805_NOOUTLINE R4
+U 1 1 931C0BDC
+P 4700 2700
+F 0 "R4" H 4600 2780 50  0000 L BNN
+F 1 "1K" H 4600 2575 50  0000 L BNN
+F 2 "Adafruit Motor Shield v2.3:0805-NO" H 4700 2700 50  0001 C CNN
+F 3 "" H 4700 2700 50  0001 C CNN
+	1    4700 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:FIDUCIAL U$2
+U 1 1 A8B04D1A
+P 15750 9000
+F 0 "U$2" H 15750 9000 50  0001 C CNN
+F 1 "FIDUCIAL" H 15750 9000 50  0001 C CNN
+F 2 "Adafruit Motor Shield v2.3:FIDUCIAL_1MM" H 15750 9000 50  0001 C CNN
+F 3 "" H 15750 9000 50  0001 C CNN
+	1    15750 9000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:FIDUCIAL U$4
+U 1 1 84E86E02
+P 15550 9000
+F 0 "U$4" H 15550 9000 50  0001 C CNN
+F 1 "FIDUCIAL" H 15550 9000 50  0001 C CNN
+F 2 "Adafruit Motor Shield v2.3:FIDUCIAL_1MM" H 15550 9000 50  0001 C CNN
+F 3 "" H 15550 9000 50  0001 C CNN
+	1    15550 9000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:IRF?5305R Q1
+U 1 1 47FAABEF
+P 3100 2600
+F 0 "Q1" H 3400 2700 59  0000 L BNN
+F 1 "AOD417" H 3400 2600 59  0000 L BNN
+F 2 "Adafruit Motor Shield v2.3:D-PAK_TO252AA" H 3100 2600 50  0001 C CNN
+F 3 "" H 3100 2600 50  0001 C CNN
+	1    3100 2600
+	1    0    0    1   
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:GND #GND019
+U 1 1 48B3EBD8
+P 2800 2800
+F 0 "#GND019" H 2800 2800 50  0001 C CNN
+F 1 "GND" H 2700 2700 59  0000 L BNN
+F 2 "" H 2800 2800 50  0001 C CNN
+F 3 "" H 2800 2800 50  0001 C CNN
+	1    2800 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:PCA9685 U2
+U 1 1 6A88E019
+P 4700 5400
+F 0 "U2" H 4000 6800 42  0000 L BNN
+F 1 "PCA9685" H 4000 4100 42  0000 L BNN
+F 2 "Adafruit Motor Shield v2.3:TSSOP28" H 4700 5400 50  0001 C CNN
+F 3 "" H 4700 5400 50  0001 C CNN
+	1    4700 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:GND #GND020
+U 1 1 2DF12463
+P 3800 5300
+F 0 "#GND020" H 3800 5300 50  0001 C CNN
+F 1 "GND" H 3700 5200 59  0000 L BNN
+F 2 "" H 3800 5300 50  0001 C CNN
+F 3 "" H 3800 5300 50  0001 C CNN
+	1    3800 5300
+	0    1    1    0   
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:GND #GND021
+U 1 1 CF593DC2
+P 3800 6300
+F 0 "#GND021" H 3800 6300 50  0001 C CNN
+F 1 "GND" H 3700 6200 59  0000 L BNN
+F 2 "" H 3800 6300 50  0001 C CNN
+F 3 "" H 3800 6300 50  0001 C CNN
+	1    3800 6300
+	0    1    1    0   
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:VCC #P+016
+U 1 1 483164F1
+P 3500 4400
+F 0 "#P+016" H 3500 4400 50  0001 C CNN
+F 1 "VCC" V 3400 4300 59  0000 L BNN
+F 2 "" H 3500 4400 50  0001 C CNN
+F 3 "" H 3500 4400 50  0001 C CNN
+	1    3500 4400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:VCC #P+07
+U 1 1 BC2DCEA9
+P 3300 6100
+F 0 "#P+07" H 3300 6100 50  0001 C CNN
+F 1 "VCC" V 3200 6000 59  0000 L BNN
+F 2 "" H 3300 6100 50  0001 C CNN
+F 3 "" H 3300 6100 50  0001 C CNN
+	1    3300 6100
+	0    -1   1    0   
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:SOLDERJUMPERREFLOW_NOPASTE A3
+U 1 1 0CA1FE56
+P 6100 8100
+F 0 "A3" H 6000 8200 59  0000 L BNN
+F 1 "SOLDERJUMPERREFLOW_NOPASTE" H 6000 7950 59  0000 L BNN
+F 2 "Adafruit Motor Shield v2.3:SOLDERJUMPER_REFLOW_NOPASTE" H 6100 8100 50  0001 C CNN
+F 3 "" H 6100 8100 50  0001 C CNN
+	1    6100 8100
+	0    1    1    0   
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:SOLDERJUMPERREFLOW_NOPASTE A4
+U 1 1 E65641C5
+P 5700 8100
+F 0 "A4" H 5600 8200 59  0000 L BNN
+F 1 "SOLDERJUMPERREFLOW_NOPASTE" H 5600 7950 59  0000 L BNN
+F 2 "Adafruit Motor Shield v2.3:SOLDERJUMPER_REFLOW_NOPASTE" H 5700 8100 50  0001 C CNN
+F 3 "" H 5700 8100 50  0001 C CNN
+	1    5700 8100
+	0    1    1    0   
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:VCC #P+017
+U 1 1 E83F5DEA
+P 6100 8500
+F 0 "#P+017" H 6100 8500 50  0001 C CNN
+F 1 "VCC" V 6000 8400 59  0000 L BNN
+F 2 "" H 6100 8500 50  0001 C CNN
+F 3 "" H 6100 8500 50  0001 C CNN
+	1    6100 8500
+	1    0    0    1   
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:VCC #P+018
+U 1 1 21F8E9C7
+P 5700 8500
+F 0 "#P+018" H 5700 8500 50  0001 C CNN
+F 1 "VCC" V 5600 8400 59  0000 L BNN
+F 2 "" H 5700 8500 50  0001 C CNN
+F 3 "" H 5700 8500 50  0001 C CNN
+	1    5700 8500
+	1    0    0    1   
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:RESISTOR0805_NOOUTLINE R5
+U 1 1 0764E48A
+P 4900 8100
+F 0 "R5" H 4800 8180 50  0000 L BNN
+F 1 "10k" H 4800 7975 50  0000 L BNN
+F 2 "Adafruit Motor Shield v2.3:0805-NO" H 4900 8100 50  0001 C CNN
+F 3 "" H 4900 8100 50  0001 C CNN
+	1    4900 8100
+	0    1    -1   0   
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:RESISTOR0805_NOOUTLINE R6
+U 1 1 96E7E6D7
+P 5100 8300
+F 0 "R6" H 5000 8380 50  0000 L BNN
+F 1 "10k" H 5000 8175 50  0000 L BNN
+F 2 "Adafruit Motor Shield v2.3:0805-NO" H 5100 8300 50  0001 C CNN
+F 3 "" H 5100 8300 50  0001 C CNN
+	1    5100 8300
+	0    1    -1   0   
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:TESTPOINTROUND2MM TP1
+U 1 1 E5F42BB8
+P 5700 7900
+F 0 "TP1" H 5600 8200 42  0000 L BNN
+F 1 "TESTPOINTROUND2MM" H 5600 8125 42  0000 L BNN
+F 2 "Adafruit Motor Shield v2.3:TESTPOINT_ROUND_2MM" H 5700 7900 50  0001 C CNN
+F 3 "" H 5700 7900 50  0001 C CNN
+	1    5700 7900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:TESTPOINTROUND2MM TP2
+U 1 1 93FB0C53
+P 6100 7700
+F 0 "TP2" H 6000 8000 42  0000 L BNN
+F 1 "TESTPOINTROUND2MM" H 6000 7925 42  0000 L BNN
+F 2 "Adafruit Motor Shield v2.3:TESTPOINT_ROUND_2MM" H 6100 7700 50  0001 C CNN
+F 3 "" H 6100 7700 50  0001 C CNN
+	1    6100 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:TESTPOINTROUND2MM TP3
+U 1 1 AF7E6EF2
+P 3600 7900
+F 0 "TP3" H 3500 8200 42  0000 L BNN
+F 1 "TESTPOINTROUND2MM" H 3500 8125 42  0000 L BNN
+F 2 "Adafruit Motor Shield v2.3:TESTPOINT_ROUND_2MM" H 3600 7900 50  0001 C CNN
+F 3 "" H 3600 7900 50  0001 C CNN
+	1    3600 7900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:TESTPOINTROUND2MM TP4
+U 1 1 4B4E01D4
+P 3300 7700
+F 0 "TP4" H 3200 8000 42  0000 L BNN
+F 1 "TESTPOINTROUND2MM" H 3200 7925 42  0000 L BNN
+F 2 "Adafruit Motor Shield v2.3:TESTPOINT_ROUND_2MM" H 3300 7700 50  0001 C CNN
+F 3 "" H 3300 7700 50  0001 C CNN
+	1    3300 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:TESTPOINTROUND2MM TP5
+U 1 1 995FED16
+P 3000 7500
+F 0 "TP5" H 2900 7800 42  0000 L BNN
+F 1 "TESTPOINTROUND2MM" H 2900 7725 42  0000 L BNN
+F 2 "Adafruit Motor Shield v2.3:TESTPOINT_ROUND_2MM" H 3000 7500 50  0001 C CNN
+F 3 "" H 3000 7500 50  0001 C CNN
+	1    3000 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:HEADER-1X476MIL JP1
+U 1 1 2F430EF2
+P 5700 6800
+F 0 "JP1" H 5450 7125 59  0000 L BNN
+F 1 "HEADER-1X476MIL" H 5450 6500 59  0000 L BNN
+F 2 "Adafruit Motor Shield v2.3:1X04_ROUND_76" H 5700 6800 50  0001 C CNN
+F 3 "" H 5700 6800 50  0001 C CNN
+	1    5700 6800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:RESISTOR0805_NOOUTLINE R7
+U 1 1 99333350
+P 3300 4800
+F 0 "R7" H 3200 4880 50  0000 L BNN
+F 1 "10K" H 3200 4675 50  0000 L BNN
+F 2 "Adafruit Motor Shield v2.3:0805-NO" H 3300 4800 50  0001 C CNN
+F 3 "" H 3300 4800 50  0001 C CNN
+	1    3300 4800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:RESISTOR0805_NOOUTLINE R8
+U 1 1 B4E26408
+P 3000 4900
+F 0 "R8" H 2900 4980 50  0000 L BNN
+F 1 "10K" H 2900 4775 50  0000 L BNN
+F 2 "Adafruit Motor Shield v2.3:0805-NO" H 3000 4900 50  0001 C CNN
+F 3 "" H 3000 4900 50  0001 C CNN
+	1    3000 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:VCC #P+019
+U 1 1 A2BCAE6A
+P 3300 4500
+F 0 "#P+019" H 3300 4500 50  0001 C CNN
+F 1 "VCC" V 3200 4400 59  0000 L BNN
+F 2 "" H 3300 4500 50  0001 C CNN
+F 3 "" H 3300 4500 50  0001 C CNN
+	1    3300 4500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:VCC #P+020
+U 1 1 0B44AC3A
+P 3000 4600
+F 0 "#P+020" H 3000 4600 50  0001 C CNN
+F 1 "VCC" V 2900 4500 59  0000 L BNN
+F 2 "" H 3000 4600 50  0001 C CNN
+F 3 "" H 3000 4600 50  0001 C CNN
+	1    3000 4600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:ARDUINO_R3_ICSP U$1
+U 1 1 BABD3B23
+P 9850 2950
+F 0 "U$1" H 9850 2950 50  0001 C CNN
+F 1 "ARDUINO_R3_ICSP" H 9850 2950 50  0001 C CNN
+F 2 "Adafruit Motor Shield v2.3:ARDUINOR3_ICSP" H 9850 2950 50  0001 C CNN
+F 3 "" H 9850 2950 50  0001 C CNN
+	1    9850 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:1X4-CLEANBIG CN1
+U 1 1 F1A938B3
+P 9450 4850
+F 0 "CN1" H 9650 5150 50  0000 R TNN
+F 1 "1X4-CLEANBIG" H 9450 4450 50  0000 L BNN
+F 2 "Adafruit Motor Shield v2.3:1X04-CLEANBIG" H 9450 4850 50  0001 C CNN
+F 3 "" H 9450 4850 50  0001 C CNN
+	1    9450 4850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:+5V #P+021
+U 1 1 AF5215F4
+P 5200 1200
+F 0 "#P+021" H 5200 1200 50  0001 C CNN
+F 1 "+5V" H 5125 1325 59  0000 L BNN
+F 2 "" H 5200 1200 50  0001 C CNN
+F 3 "" H 5200 1200 50  0001 C CNN
+	1    5200 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:PINHD-1X8CLEANBIG JP2
+U 1 1 FA93C76E
+P 9450 4150
+F 0 "JP2" H 9200 4575 59  0000 L BNN
+F 1 "PINHD-1X8CLEANBIG" H 9200 3550 59  0000 L BNN
+F 2 "Adafruit Motor Shield v2.3:1X08-CLEANBIG" H 9450 4150 50  0001 C CNN
+F 3 "" H 9450 4150 50  0001 C CNN
+	1    9450 4150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:HEADER-1X1070MIL JP3
+U 1 1 ACD8E5B6
+P 12350 3650
+F 0 "JP3" H 12100 4175 59  0000 L BNN
+F 1 "HEADER-1X1070MIL" H 12100 4250 59  0000 L BNN
+F 2 "Adafruit Motor Shield v2.3:1X10_ROUND70" H 12350 3650 50  0001 C CNN
+F 3 "" H 12350 3650 50  0001 C CNN
+	1    12350 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:FIDUCIAL U$3
+U 1 1 54307519
+P 15350 9000
+F 0 "U$3" H 15350 9000 50  0001 C CNN
+F 1 "FIDUCIAL" H 15350 9000 50  0001 C CNN
+F 2 "Adafruit Motor Shield v2.3:FIDUCIAL_1MM" H 15350 9000 50  0001 C CNN
+F 3 "" H 15350 9000 50  0001 C CNN
+	1    15350 9000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:SOLDERJUMPER_2WAY SJ1
+U 1 1 44DD8191
+P 5400 1400
+F 0 "SJ1" H 5200 1250 59  0000 L BNN
+F 1 "SOLDERJUMPER_2WAY" H 5200 1150 59  0000 L BNN
+F 2 "Adafruit Motor Shield v2.3:SOLDERJUMPER_2WAY_OPEN_NOPASTE" H 5400 1400 50  0001 C CNN
+F 3 "" H 5400 1400 50  0001 C CNN
+	1    5400 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:+5V #SUPPLY01
+U 1 1 E46721A6
+P 8850 4150
+F 0 "#SUPPLY01" H 8850 4150 50  0001 C CNN
+F 1 "+5V" H 8775 4275 59  0000 L BNN
+F 2 "" H 8850 4150 50  0001 C CNN
+F 3 "" H 8850 4150 50  0001 C CNN
+	1    8850 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:+3V3 #+3V01
+U 1 1 406B5002
+P 8750 4050
+F 0 "#+3V01" H 8750 4050 50  0001 C CNN
+F 1 "+3V3" V 8650 3850 59  0000 L BNN
+F 2 "" H 8750 4050 50  0001 C CNN
+F 3 "" H 8750 4050 50  0001 C CNN
+	1    8750 4050
+	0    -1   1    0   
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:+3V3 #+3V02
+U 1 1 37D36547
+P 5600 1200
+F 0 "#+3V02" H 5600 1200 50  0001 C CNN
+F 1 "+3V3" V 5500 1000 59  0000 L BNN
+F 2 "" H 5600 1200 50  0001 C CNN
+F 3 "" H 5600 1200 50  0001 C CNN
+	1    5600 1200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:VCC #P+09
+U 1 1 540F2EFD
+P 5400 1100
+F 0 "#P+09" H 5400 1100 50  0001 C CNN
+F 1 "VCC" V 5300 1000 59  0000 L BNN
+F 2 "" H 5400 1100 50  0001 C CNN
+F 3 "" H 5400 1100 50  0001 C CNN
+	1    5400 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:+5V #SUPPLY02
+U 1 1 33EFDB7C
+P 11650 1250
+F 0 "#SUPPLY02" H 11650 1250 50  0001 C CNN
+F 1 "+5V" H 11575 1375 59  0000 L BNN
+F 2 "" H 11650 1250 50  0001 C CNN
+F 3 "" H 11650 1250 50  0001 C CNN
+	1    11650 1250
+	0    1    1    0   
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:+5V #SUPPLY03
+U 1 1 D5692080
+P 12350 1250
+F 0 "#SUPPLY03" H 12350 1250 50  0001 C CNN
+F 1 "+5V" H 12275 1375 59  0000 L BNN
+F 2 "" H 12350 1250 50  0001 C CNN
+F 3 "" H 12350 1250 50  0001 C CNN
+	1    12350 1250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:CAP_CERAMIC0805-NOOUTLINE C6
+U 1 1 0EB95A72
+P 4500 1300
+F 0 "C6" V 4430 1321 50  0000 L BNN
+F 1 "10uF" V 4618 1321 50  0000 L BNN
+F 2 "Adafruit Motor Shield v2.3:0805-NO" H 4500 1300 50  0001 C CNN
+F 3 "" H 4500 1300 50  0001 C CNN
+	1    4500 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:CAP_CERAMIC0805-NOOUTLINE C10
+U 1 1 4F457455
+P 2900 1300
+F 0 "C10" V 2830 1321 50  0000 L BNN
+F 1 "10uF" V 3018 1321 50  0000 L BNN
+F 2 "Adafruit Motor Shield v2.3:0805-NO" H 2900 1300 50  0001 C CNN
+F 3 "" H 2900 1300 50  0001 C CNN
+	1    2900 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:GND #GND02
+U 1 1 13A376EC
+P 9050 4250
+F 0 "#GND02" H 9050 4250 50  0001 C CNN
+F 1 "GND" H 8950 4150 59  0000 L BNN
+F 2 "" H 9050 4250 50  0001 C CNN
+F 3 "" H 9050 4250 50  0001 C CNN
+	1    9050 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:GND #GND022
+U 1 1 FB1CD9CF
+P 10550 5650
+F 0 "#GND022" H 10550 5650 50  0001 C CNN
+F 1 "GND" H 10450 5550 59  0000 L BNN
+F 2 "" H 10550 5650 50  0001 C CNN
+F 3 "" H 10550 5650 50  0001 C CNN
+	1    10550 5650
+	0    1    1    0   
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:HEADER-1X2ROUND JP4
+U 1 1 47274FB3
+P 9250 5050
+F 0 "JP4" H 9000 5275 59  0000 L BNN
+F 1 "HEADER-1X2ROUND" H 9000 4850 59  0000 L BNN
+F 2 "Adafruit Motor Shield v2.3:1X02_ROUND" H 9250 5050 50  0001 C CNN
+F 3 "" H 9250 5050 50  0001 C CNN
+	1    9250 5050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:SPST_TACT-EVQQ2 SW1
+U 1 1 E9E31E47
+P 9550 3150
+F 0 "SW1" V 9300 3050 59  0000 L BNN
+F 1 "SPST_TACT-EVQQ2" V 9400 3275 59  0000 L BNN
+F 2 "Adafruit Motor Shield v2.3:EVQ-Q2" H 9550 3150 50  0001 C CNN
+F 3 "" H 9550 3150 50  0001 C CNN
+	1    9550 3150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:GND #GND023
+U 1 1 C7080FD3
+P 9250 2950
+F 0 "#GND023" H 9250 2950 50  0001 C CNN
+F 1 "GND" H 9150 2850 59  0000 L BNN
+F 2 "" H 9250 2950 50  0001 C CNN
+F 3 "" H 9250 2950 50  0001 C CNN
+	1    9250 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:FRAME_A3_ADAFRUIT #U$7
+U 1 1 BE1960E8
+P 950 10100
+F 0 "#U$7" H 950 10100 50  0001 C CNN
+F 1 "FRAME_A3_ADAFRUIT" H 950 10100 50  0001 C CNN
+F 2 "" H 950 10100 50  0001 C CNN
+F 3 "" H 950 10100 50  0001 C CNN
+	1    950  10100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:GND #GND024
+U 1 1 664B2FAE
+P 4700 8700
+F 0 "#GND024" H 4700 8700 50  0001 C CNN
+F 1 "GND" H 4600 8600 59  0000 L BNN
+F 2 "" H 4700 8700 50  0001 C CNN
+F 3 "" H 4700 8700 50  0001 C CNN
+	1    4700 8700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:+5V #SUPPLY04
+U 1 1 6DF68C43
+P 11150 5650
+F 0 "#SUPPLY04" H 11150 5650 50  0001 C CNN
+F 1 "+5V" H 11075 5775 59  0000 L BNN
+F 2 "" H 11150 5650 50  0001 C CNN
+F 3 "" H 11150 5650 50  0001 C CNN
+	1    11150 5650
+	0    1    1    0   
+$EndComp
+$Comp
+L Adafruit_Motor_Shield_v2.3-eagle-import:PINHD-1X8CLEANBIG D0-7
+U 1 1 87893D68
+P 12350 4750
+F 0 "D0-7" H 12100 5175 59  0000 L BNN
+F 1 "PINHD-1X8CLEANBIG" H 12100 5250 59  0000 L BNN
+F 2 "Adafruit Motor Shield v2.3:1X08-CLEANBIG" H 12350 4750 50  0001 C CNN
+F 3 "" H 12350 4750 50  0001 C CNN
+	1    12350 4750
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	12050 4450 12250 4450
+Wire Wire Line
+	12050 4550 12250 4550
+Wire Wire Line
+	12050 4650 12250 4650
+Wire Wire Line
+	12050 4750 12250 4750
+Wire Wire Line
+	12050 4850 12250 4850
+Wire Wire Line
+	12050 4950 12250 4950
+Wire Wire Line
+	12050 5050 12250 5050
+Wire Wire Line
+	12050 4350 12250 4350
+Text HLabel 13000 4350 2    50   Input ~ 0
+D7
+Connection ~ 12250 5050
+Connection ~ 12250 4950
+Connection ~ 12250 4850
+Connection ~ 12250 4750
+Connection ~ 12250 4650
+Connection ~ 12250 4550
+Connection ~ 12250 4450
+Connection ~ 12250 4350
+Text HLabel 13000 4450 2    50   Input ~ 0
+D6
+Text HLabel 13000 4550 2    50   Input ~ 0
+D5
+Text HLabel 13000 4650 2    50   Input ~ 0
+D4
+Text HLabel 13000 4750 2    50   Input ~ 0
+D3
+Text HLabel 13000 4850 2    50   Input ~ 0
+D2
+Text HLabel 13000 4950 2    50   Input ~ 0
+D1
+Text HLabel 13000 5050 2    50   Input ~ 0
+D0
+Text HLabel 13000 3450 2    50   Input ~ 0
+AREF
+Text HLabel 13000 3650 2    50   Input ~ 0
+D13
+Text HLabel 13000 3750 2    50   Input ~ 0
+D12
+Text HLabel 13000 3850 2    50   Input ~ 0
+D11
+Text HLabel 13000 3950 2    50   Input ~ 0
+D10
+Text HLabel 13000 4050 2    50   Input ~ 0
+D9
+Text HLabel 13000 4150 2    50   Input ~ 0
+D8
+Text HLabel 13000 3250 2    50   Input ~ 0
+SCL
+Text HLabel 13000 3350 2    50   Input ~ 0
+SDA
+Wire Wire Line
+	12250 3250 13000 3250
+Connection ~ 12250 3250
+Wire Wire Line
+	13000 3350 12250 3350
+Connection ~ 12250 3350
+Wire Wire Line
+	12250 3450 13000 3450
+Connection ~ 12250 3450
+Wire Wire Line
+	13000 3650 12250 3650
+Connection ~ 12250 3650
+Wire Wire Line
+	13000 3750 12250 3750
+Connection ~ 12250 3750
+Wire Wire Line
+	13000 3850 12250 3850
+Connection ~ 12250 3850
+Wire Wire Line
+	13000 3950 12750 3950
+Connection ~ 12750 3950
+Wire Wire Line
+	13000 4050 12850 4050
+Connection ~ 12850 4050
+Wire Wire Line
+	13000 4150 12250 4150
+Connection ~ 12250 4150
+Wire Wire Line
+	12250 4350 13000 4350
+Wire Wire Line
+	12250 4450 13000 4450
+Wire Wire Line
+	12250 4550 13000 4550
+Wire Wire Line
+	12250 4650 13000 4650
+Wire Wire Line
+	12250 4750 13000 4750
+Wire Wire Line
+	12250 4850 13000 4850
+Wire Wire Line
+	12250 4950 13000 4950
+Wire Wire Line
+	12250 5050 13000 5050
+Text HLabel 7800 5150 0    50   Input ~ 0
+A5SCL
+Text HLabel 7800 5050 0    50   Input ~ 0
+A4SDA
+Text HLabel 7800 4950 0    50   Input ~ 0
+A3
+Text HLabel 7800 4850 0    50   Input ~ 0
+A2
+Text HLabel 7800 4750 0    50   Input ~ 0
+A1
+Text HLabel 7800 4650 0    50   Input ~ 0
+A0
+Text HLabel 7800 4450 0    50   Input ~ 0
+VIN
+Text HLabel 7800 4350 0    50   Input ~ 0
+GND
+Text HLabel 7800 4150 0    50   Input ~ 0
+5V
+Text HLabel 7800 4050 0    50   Input ~ 0
+3V
+Text HLabel 7800 3950 0    50   Input ~ 0
+RESET
+Text HLabel 7800 3850 0    50   Input ~ 0
+IOREF
+Text HLabel 7800 3750 0    50   Input ~ 0
+RESERVED
+Wire Wire Line
+	7800 5150 9350 5150
+Wire Wire Line
+	7800 5050 9350 5050
+Wire Wire Line
+	9550 4950 9650 4950
+Wire Wire Line
+	7800 4950 9650 4950
+Wire Wire Line
+	9550 4850 9650 4850
+Wire Wire Line
+	7800 4850 9650 4850
+Wire Wire Line
+	9550 4750 9650 4750
+Wire Wire Line
+	7800 4750 9650 4750
+Wire Wire Line
+	9550 4650 9650 4650
+Wire Wire Line
+	7800 4350 9050 4350
+Wire Wire Line
+	7800 4650 9650 4650
+Connection ~ 9050 4350
+Wire Wire Line
+	9050 4450 9550 4450
+Wire Wire Line
+	7800 4450 9550 4450
+Wire Wire Line
+	7800 4150 8950 4150
+Connection ~ 8950 4150
+Wire Wire Line
+	7800 4050 8850 4050
+Connection ~ 8850 4050
+Wire Wire Line
+	7800 3850 9550 3850
+Connection ~ 9550 3850
+Wire Wire Line
+	9050 3950 9350 3950
+Wire Wire Line
+	7800 3750 9550 3750
+Wire Wire Line
+	7800 3950 9350 3950
+Connection ~ 9550 3750
+Text HLabel 13150 2100 2    50   Input ~ 0
+S2_GND
+Text HLabel 13150 1900 2    50   Input ~ 0
+S2_VCC
+Text HLabel 13150 2000 2    50   Input ~ 0
+S2
+Wire Wire Line
+	12450 1900 13150 1900
+Connection ~ 12450 1900
+Wire Wire Line
+	12450 1900 12450 1750
+Wire Wire Line
+	13150 2100 12550 2100
+Connection ~ 12550 2100
+Wire Wire Line
+	12550 2100 12550 2150
+Wire Wire Line
+	13150 2000 12350 2000
+Wire Wire Line
+	12350 2000 12350 2150
+Connection ~ 12350 2150
+Text HLabel 13150 1550 2    50   Input ~ 0
+S1_GND
+Text HLabel 13150 1350 2    50   Input ~ 0
+S1_VCC
+Text HLabel 13150 1450 2    50   Input ~ 0
+S1
+Wire Wire Line
+	13150 1350 12450 1350
+Connection ~ 12450 1350
+Wire Wire Line
+	12450 1350 12450 1750
+Wire Wire Line
+	13150 1550 12550 1550
+Connection ~ 12550 1550
+Wire Wire Line
+	12550 1550 12550 1250
+Wire Wire Line
+	13150 1450 12350 1450
+Wire Wire Line
+	12350 1450 12350 1750
+Wire Bus Line
+	4300 6800 5100 6800
+Wire Bus Line
+	3600 5600 3600 6000
+Wire Bus Line
+	5700 4800 5700 6300
+Connection ~ 12350 1750
+$EndSCHEMATC

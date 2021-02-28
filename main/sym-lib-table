@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name IDP)(type Legacy)(uri ${KIPRJMOD}/../lib/IDP_library.lib)(options "")(descr ""))
+  (lib (name IDP_L211)(type Legacy)(uri ${KIPRJMOD}/../lib/IDP_L211.lib)(options "")(descr ""))
+  (lib (name Adafruit_Motor_Shield_v2.3-eagle-import)(type Legacy)(uri /home/el/idp/electrical/Adafruit-Motor-Shield-V2.3-PCB/Adafruit_Motor_Shield_v2.3-eagle-import.lib)(options "")(descr ""))
+)

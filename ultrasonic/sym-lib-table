@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name IDP)(type Legacy)(uri ${KIPRJMOD}/../lib/IDP_library.lib)(options "")(descr ""))
+  (lib (name IDP_L211)(type Legacy)(uri ${KIPRJMOD}/../lib/IDP_L211.lib)(options "")(descr ""))
+)
