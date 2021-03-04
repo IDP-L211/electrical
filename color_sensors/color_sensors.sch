@@ -14,19 +14,6 @@ Comment3 ""
 Comment4 "Designed by Eleanor Clifford"
 $EndDescr
 $Comp
-L IDP:LM358 U2
-U 2 1 606B8432
-P 5050 4700
-AR Path="/606B8432" Ref="U2"  Part="2" 
-AR Path="/60563E23/606B8432" Ref="U?"  Part="2" 
-F 0 "U2" H 5050 5054 45  0000 C CNN
-F 1 "LM358" H 5050 4970 45  0000 C CNN
-F 2 "IDP_library_DIP08" H 5080 4850 20  0001 C CNN
-F 3 "" H 5050 4700 50  0001 C CNN
-	2    5050 4700
-	1    0    0    -1  
-$EndComp
-$Comp
 L IDP:LM358 U1
 U 3 1 606B8438
 P 2650 3900
@@ -37,19 +24,6 @@ F 1 "LM358" H 2794 3858 45  0000 L CNN
 F 2 "IDP_library_DIP08" H 2680 4050 20  0001 C CNN
 F 3 "" H 2650 3900 50  0001 C CNN
 	3    2650 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R4
-U 1 1 606B8480
-P 4300 4350
-AR Path="/606B8480" Ref="R4"  Part="1" 
-AR Path="/60563E23/606B8480" Ref="R?"  Part="1" 
-F 0 "R4" H 4370 4396 50  0000 L CNN
-F 1 "R" H 4370 4305 50  0000 L CNN
-F 2 "" V 4230 4350 50  0001 C CNN
-F 3 "~" H 4300 4350 50  0001 C CNN
-	1    4300 4350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -64,19 +38,6 @@ F 2 "" H 3750 5600 50  0001 C CNN
 F 3 "" H 3750 5600 50  0001 C CNN
 	1    3750 5600
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R2
-U 1 1 606B848C
-P 3750 4350
-AR Path="/606B848C" Ref="R2"  Part="1" 
-AR Path="/60563E23/606B848C" Ref="R?"  Part="1" 
-F 0 "R2" H 3680 4304 50  0000 R CNN
-F 1 "R" H 3680 4395 50  0000 R CNN
-F 2 "" V 3680 4350 50  0001 C CNN
-F 3 "~" H 3750 4350 50  0001 C CNN
-	1    3750 4350
-	-1   0    0    1   
 $EndComp
 $Comp
 L Sensor_Optical:TEPT4400 Q2
@@ -95,9 +56,6 @@ Wire Wire Line
 	4750 4800 4300 4800
 Wire Wire Line
 	4300 4800 4300 4850
-Wire Wire Line
-	4300 4800 4300 4500
-Connection ~ 4300 4800
 $Comp
 L IDP:+5V #P+05
 U 1 1 606B849C
@@ -112,24 +70,20 @@ F 3 "" H 4300 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4300 4200 4300 4150
-Wire Wire Line
 	3750 4600 3750 4500
 $Comp
 L IDP:+5V #P+03
 U 1 1 606B84A5
-P 3750 4050
+P 3750 4000
 AR Path="/606B84A5" Ref="#P+03"  Part="1" 
 AR Path="/60563E23/606B84A5" Ref="#P+?"  Part="1" 
-F 0 "#P+03" V 3750 4050 45  0001 L BNN
-F 1 "+5V" H 3750 4121 45  0000 C CNN
-F 2 "" H 3750 4050 50  0001 C CNN
-F 3 "" H 3750 4050 50  0001 C CNN
-	1    3750 4050
+F 0 "#P+03" V 3750 4000 45  0001 L BNN
+F 1 "+5V" H 3750 4071 45  0000 C CNN
+F 2 "" H 3750 4000 50  0001 C CNN
+F 3 "" H 3750 4000 50  0001 C CNN
+	1    3750 4000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3750 4200 3750 4150
 $Comp
 L IDP:GND #GND05
 U 1 1 606B84AD
@@ -143,8 +97,6 @@ F 3 "" H 4300 5600 50  0001 C CNN
 	1    4300 5600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3750 4600 4750 4600
 Text Label 5700 3800 0    50   ~ 0
 green
 Text Label 5700 3700 0    50   ~ 0
@@ -250,19 +202,6 @@ F 3 "" H 5050 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R3
-U 1 1 603D908E
-P 4300 2500
-AR Path="/603D908E" Ref="R3"  Part="1" 
-AR Path="/60563E23/603D908E" Ref="R?"  Part="1" 
-F 0 "R3" H 4370 2546 50  0000 L CNN
-F 1 "R" H 4370 2455 50  0000 L CNN
-F 2 "" V 4230 2500 50  0001 C CNN
-F 3 "~" H 4300 2500 50  0001 C CNN
-	1    4300 2500
-	1    0    0    -1  
-$EndComp
-$Comp
 L IDP:GND #GND02
 U 1 1 603D9094
 P 3750 3750
@@ -274,19 +213,6 @@ F 2 "" H 3750 3750 50  0001 C CNN
 F 3 "" H 3750 3750 50  0001 C CNN
 	1    3750 3750
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R1
-U 1 1 603D909A
-P 3750 2500
-AR Path="/603D909A" Ref="R1"  Part="1" 
-AR Path="/60563E23/603D909A" Ref="R?"  Part="1" 
-F 0 "R1" H 3680 2454 50  0000 R CNN
-F 1 "R" H 3680 2545 50  0000 R CNN
-F 2 "" V 3680 2500 50  0001 C CNN
-F 3 "~" H 3750 2500 50  0001 C CNN
-	1    3750 2500
-	-1   0    0    1   
 $EndComp
 $Comp
 L Sensor_Optical:TEPT4400 Q1
@@ -305,9 +231,6 @@ Wire Wire Line
 	4750 2950 4300 2950
 Wire Wire Line
 	4300 2950 4300 3000
-Wire Wire Line
-	4300 2950 4300 2650
-Connection ~ 4300 2950
 $Comp
 L IDP:+5V #P+04
 U 1 1 603D90AA
@@ -321,10 +244,6 @@ F 3 "" H 4300 2200 50  0001 C CNN
 	1    4300 2200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4300 2350 4300 2300
-Wire Wire Line
-	3750 2750 3750 2650
 $Comp
 L IDP:+5V #P+02
 U 1 1 603D90B2
@@ -338,8 +257,6 @@ F 3 "" H 3750 2200 50  0001 C CNN
 	1    3750 2200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3750 2350 3750 2300
 $Comp
 L IDP:GND #GND04
 U 1 1 603D90B9
@@ -368,7 +285,6 @@ F 3 "" H 4300 3300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3750 2750 3750 3100
-Connection ~ 3750 2750
 Wire Wire Line
 	3750 3500 3750 3650
 Wire Wire Line
@@ -379,4 +295,70 @@ Wire Wire Line
 	5550 3800 5550 4700
 Wire Wire Line
 	5550 2850 5550 3700
+$Comp
+L IDP:R-EU_0207_5V R4
+U 1 1 6041B54E
+P 4300 4350
+F 0 "R4" V 4258 4413 45  0000 L CNN
+F 1 "R-EU_0207_5V" V 4342 4413 45  0000 L CNN
+F 2 "IDP_library_0207_5V" H 4330 4500 20  0001 C CNN
+F 3 "" H 4300 4350 50  0001 C CNN
+	1    4300 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L IDP:R-EU_0207_5V R3
+U 1 1 60423D62
+P 4300 2500
+F 0 "R3" V 4258 2563 45  0000 L CNN
+F 1 "R-EU_0207_5V" V 4342 2563 45  0000 L CNN
+F 2 "IDP_library_0207_5V" H 4330 2650 20  0001 C CNN
+F 3 "" H 4300 2500 50  0001 C CNN
+	1    4300 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L IDP:R-EU_0207_5V R1
+U 1 1 60424395
+P 3750 2500
+F 0 "R1" V 3700 2450 45  0000 R TNN
+F 1 "R-EU_0207_5V" V 3800 2450 45  0000 R CNN
+F 2 "IDP_library_0207_5V" H 3780 2650 20  0001 C CNN
+F 3 "" H 3750 2500 50  0001 C CNN
+	1    3750 2500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4300 2950 4300 2700
+Connection ~ 4300 2950
+Wire Wire Line
+	3750 2750 3750 2700
+Connection ~ 3750 2750
+$Comp
+L IDP:R-EU_0207_5V R2
+U 1 1 6042F9BB
+P 3750 4300
+F 0 "R2" V 3700 4250 45  0000 R TNN
+F 1 "R-EU_0207_5V" V 3800 4250 45  0000 R CNN
+F 2 "IDP_library_0207_5V" H 3780 4450 20  0001 C CNN
+F 3 "" H 3750 4300 50  0001 C CNN
+	1    3750 4300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3750 4600 4750 4600
+Wire Wire Line
+	4300 4800 4300 4550
+Connection ~ 4300 4800
+$Comp
+L IDP:LM358 U1
+U 1 1 604385BA
+P 5050 4700
+F 0 "U1" H 5050 5054 45  0000 C CNN
+F 1 "LM358" H 5050 4970 45  0000 C CNN
+F 2 "IDP_library_DIP08" H 5080 4850 20  0001 C CNN
+F 3 "" H 5050 4700 50  0001 C CNN
+	1    5050 4700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
