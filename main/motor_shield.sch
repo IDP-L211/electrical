@@ -326,8 +326,6 @@ Wire Wire Line
 Connection ~ 9550 3850
 Wire Wire Line
 	7800 3750 9550 3750
-Wire Wire Line
-	7800 3950 9350 3950
 Connection ~ 9550 3750
 Wire Wire Line
 	12250 4050 13000 4050
@@ -340,8 +338,6 @@ Wire Wire Line
 Wire Wire Line
 	7800 4950 9650 4950
 Wire Wire Line
-	9050 3950 9550 3950
-Wire Wire Line
 	12250 3950 13000 3950
 Wire Wire Line
 	7800 4150 9550 4150
@@ -352,4 +348,6 @@ Wire Wire Line
 	7800 4350 9550 4350
 Text Label 9050 4450 0    70   ~ 0
 VIN
+Wire Wire Line
+	7800 3950 9550 3950
 $EndSCHEMATC
