@@ -1,4 +1,4 @@
 (fp_lib_table
-  (lib (name IDP)(type KiCad)(uri ${KIPRJMOD}/../lib/main.pretty)(options "")(descr ""))
+  (lib (name IDP)(type KiCad)(uri /home/el/idp/electrical/lib/idp.pretty)(options "")(descr ""))
   (lib (name "Adafruit Motor Shield v2.3")(type KiCad)(uri "$(KIPRJMOD)/../Adafruit-Motor-Shield-V2.3-PCB/Adafruit Motor Shield v2.3.pretty")(options "")(descr ""))
 )
