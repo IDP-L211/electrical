@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name Adafruit_Motor_Shield_v2.3-eagle-import)(type Legacy)(uri ${KIPRJMOD}/Adafruit_Motor_Shield_v2.3-eagle-import.lib)(options "")(descr ""))
-)
