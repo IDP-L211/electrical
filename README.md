@@ -8,4 +8,4 @@ sleep). Just replace all occurences of `/home/el/idp/electrical` with the
 location of this repository and you should be fine.
 
 # System diagram
-![System_diagram](System_diagram.png)
+![System_diagram](doc/System_diagram.png)
